@@ -10,3 +10,4 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+window['CESIUM_BASE_URL'] = '/assets/cesium';
